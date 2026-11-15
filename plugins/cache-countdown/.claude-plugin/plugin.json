@@ -1,0 +1,13 @@
+{
+  "name": "cache-countdown",
+  "version": "0.2.0",
+  "description": "Counts down to prompt-cache expiry in the status line, restarting with each main-thread model request",
+  "userConfig": {
+    "showStatus": {
+      "type": "boolean",
+      "title": "Show the countdown",
+      "description": "Draw the countdown in the mod's status line. Turn off if your own status line script reads ~/.claude/state/cache-clock instead.",
+      "default": true
+    }
+  }
+}

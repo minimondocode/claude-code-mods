@@ -1,0 +1,34 @@
+{
+  "name": "claude-code-mods",
+  "owner": {
+    "name": "minimondocode"
+  },
+  "plugins": [
+    {
+      "name": "copy-code",
+      "source": "./plugins/copy-code",
+      "description": "Adds a small copy link under every code block Claude writes, copying the code exactly as written"
+    },
+    {
+      "name": "copy-session-id",
+      "source": "./plugins/copy-session-id",
+      "description": "/sid copies the current session ID to the clipboard"
+    },
+    {
+      "name": "focus-notes",
+      "source": "./plugins/focus-notes",
+      "description": "Shows the text Claude writes between tool calls in a band above the prompt, so focus mode never hides it"
+    },
+    {
+      "name": "keep-warm",
+      "source": "./plugins/keep-warm",
+      "description": "/keep-warm: ping the session's prompt cache 55 minutes after the last request so it stays warm"
+    },
+    {
+      "name": "cache-countdown",
+      "source": "./plugins/cache-countdown",
+      "description": "Counts down to prompt-cache expiry in the status line, restarting with each main-thread model request"
+    }
+  ],
+  "description": "Small Claude Code mods: copy code blocks and the session ID, show notes focus mode hides, and keep an eye on the prompt cache."
+}

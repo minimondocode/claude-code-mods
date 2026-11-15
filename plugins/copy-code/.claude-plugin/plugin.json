@@ -1,0 +1,1 @@
+{ "name": "copy-code", "version": "0.1.0", "description": "Adds a small copy link under every code block Claude writes, copying the code exactly as written" }

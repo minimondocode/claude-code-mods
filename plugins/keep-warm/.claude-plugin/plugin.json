@@ -1,0 +1,6 @@
+{
+  "name": "keep-warm",
+  "version": "0.1.0",
+  "description": "/keep-warm: ping the session's prompt cache 55 minutes after the last request so it stays warm",
+  "types": "./types/index.d.ts"
+}
